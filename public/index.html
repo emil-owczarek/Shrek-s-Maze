@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Shrek's Maze game" />
+    <title>Shrek's Maze</title>
+    <link rel="stylesheet" href="../src/assets/styles/style.css" />
+    <script type="module" src="../src/main.js" defer></script>
+  </head>
+  <body>
+    <div class="maze">
+      <div class="maze__start"></div>
+      <div class="maze__finish"></div>
+      <div class="maze__wall maze__wall--1"></div>
+      <div class="maze__wall maze__wall--2"></div>
+      <div class="maze__wall maze__wall--3"></div>
+      <div class="maze__wall maze__wall--4"></div>
+      <div class="maze__wall maze__wall--5"></div>
+      <div class="maze__wall maze__wall--6"></div>
+      <div class="maze__wall maze__wall--7"></div>
+      <div class="maze__wall maze__wall--8"></div>
+      <div class="maze__wall maze__wall--9"></div>
+      <div class="maze__wall maze__wall--10"></div>
+      <div class="maze__wall maze__wall--11"></div>
+      <div class="maze__wall maze__wall--12"></div>
+      <div class="maze__wall maze__wall--13"></div>
+      <div class="maze__wall maze__wall--14"></div>
+      <div class="maze__wall maze__wall--15"></div>
+      <div class="maze__wall maze__wall--16"></div>
+      <div class="maze__wall maze__wall--17"></div>
+      <div class="maze__wall maze__wall--18"></div>
+      <div class="maze__wall maze__wall--19"></div>
+      <div class="maze__wall maze__wall--20"></div>
+    </div>
+    <p class="clock"><span id="seconds">00</span>:<span id="tens">00</span></p>
+    <div class="modal">
+      <div class="modal__content">
+        <h2 class="modal__title">Shrek's Maze</h2>
+        <div>
+          <button class="modal__button modal__button--play">Play</button>
+          <button class="modal__button modal__button--scoreboard">Scoreboard</button>
+        </div>
+      </div>
+    </div>
+    <div class="scoreboard-modal">
+      <div class="scoreboard-modal__content">
+        <h2 class="scoreboard-modal__title">Scoreboard</h2>
+        <span class="scoreboard-modal__close-button">&times;</span>
+        <div>
+        </div>
+      </div>
+    </div>
+    <audio class="maze__audioplayer"><source type="audio/mp3" /></audio>
+
+  </body>
+</html>

@@ -1,0 +1,26 @@
+@font-face {
+  font-family: Shrek;
+  src: url(../fonts/Shrek-font.TTF);
+  font-display: swap;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+@import "./maze.scss";
+@import "./modal.scss";
+@import "./scoreboard-modal.scss";
+@import "./clock.scss";
