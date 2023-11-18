@@ -25,14 +25,15 @@ body {
   font-size: 30px;
   font-weight: bold;
   border: 1px solid black;
-  height: 800px;
-  width: 800px;
+  height: 90vh;
+  width: 100vh;
 }
 .maze__start {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 900;
   color: rgb(62, 128, 0);
-  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -129,7 +130,8 @@ body {
   font-size: 50px;
   font-weight: bold;
 }
-.scoreboard-modal__close-button:hover, .scoreboard-modal__close-button :focus {
+.scoreboard-modal__close-button:hover,
+.scoreboard-modal__close-button :focus {
   color: #000;
   text-decoration: none;
   cursor: pointer;
@@ -142,10 +144,10 @@ body {
 }
 
 .clock {
-  font-size: 5em;
+  font-size: 4em;
   color: rgb(116, 211, 26);
-  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-  margin-top: -55px;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
   margin-bottom: -10px;
 }
 
