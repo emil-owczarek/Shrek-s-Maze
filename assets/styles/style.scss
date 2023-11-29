@@ -1,0 +1,54 @@
+@font-face {
+  font-family: Shrek;
+  src: url(../fonts/Shrek-font.TTF);
+  font-display: swap;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+@media screen and (min-width: 801px) {
+  @import "./maze.scss";
+  @import "./modal.scss";
+  @import "./scoreboard-modal.scss";
+  @import "./instruction-modal.scss";
+  @import "./clock.scss";
+
+  .mobile-warning {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .maze,
+  .modal,
+  .clock,
+  .instruction-modal,
+  .scoreboard-modal {
+    display: none;
+  }
+
+  .mobile-warning {
+    display: block;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border: 1px solid #dcdcdc;
+    border-radius: 5px;
+    margin: 20px;
+    font-size: 20px;
+    color: #333;
+  }
+}

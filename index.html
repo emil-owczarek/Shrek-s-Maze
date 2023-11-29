@@ -7,7 +7,7 @@
     <meta name="description" content="Shrek's Maze game" />
     <title>Shrek's Maze</title>
     <link rel="stylesheet" href="./assets/styles/style.css" />
-    <script type="module" crossorigin src="/Shrek-s-Maze/assets/index-46PAWa6L.js"></script>
+    <script type="module" crossorigin src="/Shrek-s-Maze/assets/index--xOh9IHG.js"></script>
   </head>
   <body>
     <div class="maze">
@@ -39,8 +39,11 @@
       <div class="modal__content">
         <h2 class="modal__title">Shrek's Maze</h2>
         <div>
+          <span class="info-button"></span>
           <button class="modal__button modal__button--play">Play</button>
-          <button class="modal__button modal__button--scoreboard">Scoreboard</button>
+          <button class="modal__button modal__button--scoreboard">
+            Scoreboard
+          </button>
         </div>
       </div>
     </div>
@@ -48,11 +51,45 @@
       <div class="scoreboard-modal__content">
         <h2 class="scoreboard-modal__title">Scoreboard</h2>
         <span class="scoreboard-modal__close-button">&times;</span>
-        <div>
+        <div></div>
+      </div>
+    </div>
+    <div class="instruction-modal">
+      <div class="instruction-modal__content">
+        <h2 class="instruction-modal__title">Instruction</h2>
+        <div class="instruction-modal__instructions">
+          <h2 class="instruction-modal__sub-title">How to Play</h2>
+          <ol class="instruction-modal__list">
+            <li class="instruction-modal__item">
+              <strong>Start the Game</strong>: Click on the start figure to
+              begin your journey through Shrek's labyrinth.
+            </li>
+            <li class="instruction-modal__item">
+              <strong>Navigate the Maze</strong>: Carefully move your mouse to
+              guide the cursor through the maze. The path is intricate, and
+              precision is key.
+            </li>
+            <li class="instruction-modal__item">
+              <strong>Avoid the Walls</strong>: Touching the walls of the maze
+              results in an immediate loss. You will need to start over from the
+              beginning of the level.
+            </li>
+            <li class="instruction-modal__item">
+              <strong>Progress Through Levels</strong>: The game consists of
+              three levels, each increasing in complexity and difficulty.
+            </li>
+            <li class="instruction-modal__item">
+              <strong>Complete All Levels</strong>: Successfully navigate
+              through all three levels to reach the end of the game.
+            </li>
+          </ol>
         </div>
+        <span class="instruction-modal__close-button">&times;</span>
       </div>
     </div>
     <audio class="maze__audioplayer"><source type="audio/mp3" /></audio>
-
+    <div class="mobile-warning">
+      This application only works on computer screens.
+    </div>
   </body>
 </html>
